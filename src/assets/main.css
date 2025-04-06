@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  --main-white: "#E6E6E6";
+  --main-black: "#141414";
+}
+
+html{
+  background-color: var(--main-black);
+
+  font-family: Graphik, sans-serif;
+  color: var(--main-white);
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("./fonts/graphik.otf");
+}
+
+@font-face{
+  font-family: "Bounded";
+  src: url("./fonts/bounded.ttf");
+}
