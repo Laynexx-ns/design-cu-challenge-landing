@@ -1,7 +1,15 @@
+<template>
+  <RouterView/>
+</template>
+
 <script lang="ts">
-import "../src/assets/main.css"
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'App',
+})
 </script>
 
-<template>
-  <RouterView class="text-baseWhite"/>
-</template>
+<style scoped>
+
+</style>
